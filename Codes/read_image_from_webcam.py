@@ -2,7 +2,8 @@
 """
 Created on Sun May 16 18:57:17 2021
 
-@author: talha
+@author: mntalha
+github :https://github.com/mntalha
 """
 
 #Library import 
