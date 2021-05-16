@@ -3,7 +3,7 @@
 Created on Sun May 16 18:57:43 2021
 
 @author: mntalha
-github :https://github.com/mntalha
+github : https://github.com/mntalha
 """
 
 #Library import 
