@@ -16,8 +16,7 @@ video_path = "../Resources/sample_video.mp4"
 # 1, 2,3 ,... other hooked on cameras
 capture = cv.VideoCapture(video_path)
 
-import time
-start=time.time()
+
 while True:
     #isTrue : capturing from source whether succesfull or not
     isTrue,frame =capture.read()
@@ -33,7 +32,6 @@ while True:
     #24 frame in second.
     if cv.waitKey(1000//24) & 0xFF==ord('d'):
         break
-end=time.time()  
 capture.release()
 cv.destroyAllWindows()
 
