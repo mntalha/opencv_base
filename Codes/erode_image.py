@@ -19,5 +19,14 @@ img = cv.imread(path)
 #Show image 
 cv.imshow("Sample Image",img)
 
+# Eroding process
+#similar to the edging 
+
+eroded = cv.erode(img, (5,5), iterations=2)
+
+#Show image 
+cv.imshow('Eroded Image', eroded)
+
+
 #Wait until closed.
 cv.waitKey(0)

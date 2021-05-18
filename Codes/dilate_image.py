@@ -19,5 +19,14 @@ img = cv.imread(path)
 #Show image 
 cv.imshow("Sample Image",img)
 
+#dilating process
+#similar to the blurring 
+
+dilated = cv.dilate(img, (5,5), iterations=2)
+
+#Show image 
+cv.imshow('Dilated Image', dilated)
+
+
 #Wait until closed.
 cv.waitKey(0)
