@@ -3,7 +3,7 @@
 
 ### It contains spesific code fragments about opencv
 
-### The goal in here is to simplfy to opencv part and put into small pieces of code fragments so it can be easily pull the demanded parts.
+The goal in here is to simplfy to opencv part and put into small pieces of code fragments so it can be easily pull the demanded parts.
 
 # Requirements
 
