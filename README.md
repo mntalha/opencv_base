@@ -6,7 +6,10 @@
 ### The goal in here is to simplfy to opencv part and put into small pieces of code fragments so it can be easily pull the demanded parts.
 
 # Requirements
+
 - cv2
+
+
 You can check the latest sources:
 ```
 https://github.com/mntalha/opencv_base/tree/main/Codes
